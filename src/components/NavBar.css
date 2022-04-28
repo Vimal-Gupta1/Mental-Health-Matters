@@ -9,11 +9,11 @@
   position: sticky;
   top: 0;
   z-index: 20;
-  background: rgba(213, 198, 114, 0.01);
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  background: rgba(243, 242, 236, 0.7);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.15);
   backdrop-filter: blur(16.7px);
   -webkit-backdrop-filter: blur(16.7px);
-  border: 1px solid rgba(241, 240, 233, 0.51);
+  border: 1px solid rgba(241, 240, 233, 0.11);
 }
 
 .nav-container {

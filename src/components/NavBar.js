@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import "./NavBar.css";
-
 function NavBar() {
   const [click, setClick] = useState(false);
 
@@ -12,7 +11,7 @@ function NavBar() {
         <div className="nav-container">
           <NavLink exact to="/" className="nav-logo">
             WeGotYou
-            <i className="fas fa-code"></i>
+            <i className="fas fa-ribbon"></i>
           </NavLink>
 
           <ul className={click ? "nav-menu active" : "nav-menu"}>

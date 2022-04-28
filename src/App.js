@@ -6,7 +6,7 @@ import { About } from "./components/Pages/About";
 import { Blog } from "./components/Pages/Blog";
 import { Quiz } from "./components/Pages/Quiz";
 import { Contact } from "./components/Pages/Contact";
-
+import Footer from "./components/Footer";
 function App() {
   return (
     <>
@@ -19,6 +19,7 @@ function App() {
           <Route path="/quiz" component={Quiz} />
           <Route path="/contact" component={Contact} />
         </Switch>
+        <Footer />
       </Router>
     </>
   );
