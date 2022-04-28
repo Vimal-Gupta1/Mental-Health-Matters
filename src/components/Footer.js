@@ -10,8 +10,9 @@ export default function StickyFooter() {
     <Box
       sx={{
         display: "flex",
+        bottom: 0,
         flexDirection: "column",
-        minHeight: "90vh"
+        minHeight: "25vh"
       }}
     >
       <CssBaseline />
@@ -21,6 +22,7 @@ export default function StickyFooter() {
           py: 3,
           px: 2,
           mt: "auto",
+          bottom: 0,
           fontWeight: "bold",
           fontSize: 22,
           textAlign: "center",
@@ -41,16 +43,19 @@ export default function StickyFooter() {
             <Link color="inherit" href="https://github.com/vimalgupta24">
               <i class="fa fa-github"></i>
             </Link>{" "}
-            <Link color="inherit" href="https://github.com/vimalgupta24">
+            <Link color="inherit" href="https://www.facebook.com/ki.zie.26/">
               <i class="fa fa-facebook-f"></i>
             </Link>{" "}
-            <Link color="inherit" href="https://github.com/vimalgupta24">
+            <Link color="inherit" href="https://www.instagram.com/vmwritings_/">
               <i class="fa fa-instagram"></i>
             </Link>{" "}
-            <Link color="inherit" href="https://github.com/vimalgupta24">
+            <Link color="inherit" href="https://twitter.com/dcrazy1_">
               <i class="fa fa-twitter"></i>
             </Link>{" "}
-            <Link color="inherit" href="https://github.com/vimalgupta24">
+            <Link
+              color="inherit"
+              href="https://www.linkedin.com/in/vimal-gupta/"
+            >
               <i class="fa fa-linkedin"></i>
             </Link>
           </Typography>
