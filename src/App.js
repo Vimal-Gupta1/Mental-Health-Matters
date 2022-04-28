@@ -7,6 +7,7 @@ import { Blog } from "./components/Pages/Blog";
 import { Quiz } from "./components/Pages/Quiz";
 import { Contact } from "./components/Pages/Contact";
 import Footer from "./components/Footer";
+// need changes in links in footer ,changes in whole about design
 function App() {
   return (
     <>
