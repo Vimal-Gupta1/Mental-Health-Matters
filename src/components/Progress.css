@@ -1,0 +1,20 @@
+#progressBarContainer {
+  position: fixed;
+  /* z-index: 10; */
+  background: rgba(212, 159, 13, 0.05);
+  width: 100%;
+  /* top: 0; */
+  left: 0;
+}
+
+#progressBar {
+  background: linear-gradient(to left, rgb(255, 187, 0), rgb(215, 238, 130));
+  transform-origin: top left;
+  transform: scale(0, 0);
+  opacity: 0;
+}
+
+#progressBarContainer,
+#progressBar {
+  height: 4px;
+}
