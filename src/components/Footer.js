@@ -35,6 +35,7 @@ export default function StickyFooter() {
         }}
       >
         <Container maxWidth="sm">
+          <span className="subhead">Feelings Matter.</span>
           <Typography variant="body1" color="text.primary">
             {" "}
             {new Date().getFullYear()}

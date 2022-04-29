@@ -1,9 +1,33 @@
 img {
   width: 100%;
 }
-
+.heading {
+  /* font-family: "Montserray", bolder; */
+  font-size: 2.4rem;
+  font-family: "Square Peg", cursive;
+  width: 100%;
+  display: flex;
+  margin-top: 15px;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  z-index: 20;
+  font-weight: bolder;
+}
 @media only screen and (max-width: 480px) {
   img {
     width: 100%;
+  }
+  .heading {
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    position: relative;
+    top: 0;
+    z-index: 20;
+    font-weight: bolder;
   }
 }

@@ -13,7 +13,6 @@ function NavBar() {
             WeGotYou
             <i className="fas fa-ribbon"></i>
           </NavLink>
-
           <ul className={click ? "nav-menu active" : "nav-menu"}>
             <li className="nav-item">
               <NavLink
@@ -37,17 +36,7 @@ function NavBar() {
                 About
               </NavLink>
             </li>
-            <li className="nav-item">
-              <NavLink
-                exact
-                to="/blog"
-                activeClassName="active"
-                className="nav-links"
-                onClick={handleClick}
-              >
-                Blog
-              </NavLink>
-            </li>
+
             <li className="nav-item">
               <NavLink
                 exact

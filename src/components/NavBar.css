@@ -9,13 +9,16 @@
   position: sticky;
   top: 0;
   z-index: 20;
-  background: rgba(243, 242, 236, 0.7);
+  background: rgba(243, 242, 236, 0.8);
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.15);
   backdrop-filter: blur(16.7px);
   -webkit-backdrop-filter: blur(16.7px);
   border: 1px solid rgba(241, 240, 233, 0.11);
 }
-
+.subhead {
+  font-size: 1.2rem;
+  padding-left: 1.8rem;
+}
 .nav-container {
   display: flex;
   justify-content: center;
@@ -25,7 +28,6 @@
   margin-left: 70px;
   max-width: 1500px;
 }
-
 .nav-logo {
   color: #727865;
   align-items: center;
